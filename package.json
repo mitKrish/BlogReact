@@ -1,11 +1,12 @@
 {
   "name": "BlogReact",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Simple Blog app using Redux with React and Babel support",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test":
+      "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
@@ -24,7 +25,6 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
-    "react-router": "^2.0.0-rc5",
     "redux": "4.0.0"
   }
 }
